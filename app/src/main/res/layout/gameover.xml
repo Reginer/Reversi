@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gameover_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/gameover_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#333"
+        android:textSize="36sp"
+        tools:text="Somebody wins" />
+
+    <TextView
+        android:id="@+id/gameover_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="20sp"
+        android:paddingTop="15sp"
+        android:textColor="#333"
+        android:textSize="36sp"
+        tools:text="00:00" />
+
+    <Button
+        android:id="@+id/gameover_choice_new_game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gameover_choices_new_game"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/gameover_choice_switch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gameover_choices_switch"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/gameover_choice_options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gameover_choices_options"
+        android:textSize="16sp" />
+
+
+    <Button
+        android:id="@+id/gameover_choice_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gameover_choices_cancel"
+        android:textSize="16sp" />
+
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_frame"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <win.regin.reversi.BoardView
+        android:id="@+id/board"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/board_color"
+        android:visibility="visible" />
+
+    <FrameLayout
+        android:id="@+id/board_info_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/board"
+        android:background="@color/board_color"
+        android:focusable="false"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <view
+            android:id="@+id/status_panel"
+            class="win.regin.reversi.StatusView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/board_color"
+            android:focusable="false"
+            android:visibility="visible" />
+
+    </FrameLayout>
+</RelativeLayout>

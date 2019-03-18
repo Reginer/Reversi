@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="settings_engine_use_book_summary">使用开局库</string>
+    <string name="settings_engine_use_book_title">使用开局库</string>
+    <string name="gameover_choices_options">修改设置</string>
+    <string name="settings_engine_practice_mode_summary">在棋盘上显示棋力</string>
+    <string name="settings_engine_practice_mode_title">练习模式</string>
+    <string name="settings_engine_human_openings_summary">更加人性化开局</string>
+    <string name="settings_engine_human_openings_title">人性化开局</string>
+    <string name="settings_engine_force_opening_summary">设置自动开局库名称</string>
+    <string name="settings_engine_force_opening_title">自动开局</string>
+    <string name="settings_engine_randomness_dialog_message">允许AI考虑非最佳走法. 这会导致棋力下降但玩法更多样 - 更人性化.</string>
+    <string name="settings_engine_randomness_summary">允许AI考虑非最佳走法</string>
+    <string name="settings_engine_randomness_title">随机</string>
+    <string name="spash_layout_message">正在加载</string>
+    <string name="settings_engine_auto_make_moves_summary">自动走别无他选的棋子</string>
+    <string name="settings_engine_auto_make_moves_title">自动强制走棋</string>
+    <string name="settings_ui_display_last_move_summary">在棋盘上标记出上次下棋的位置</string>
+    <string name="settings_ui_display_last_move_title">标记上次位置</string>
+    <string name="settings_ui_display_moves_summary">在棋盘上标记出可选的下棋位置</string>
+    <string name="settings_ui_display_moves_title">标记可选</string>
+    <string name="gameover_choices_cancel">查看棋局</string>
+    <string name="gameover_choices_switch">互换</string>
+    <string name="gameover_choices_new_game">新游戏</string>
+    <string name="gameover_choices_email">邮箱</string>
+    <string name="settings_ui_display_pv_summary">显示对当前玩家最有利的走法 (提前计算)</string>
+    <string name="settings_ui_display_pv_title">显示走法</string>
+    <string name="settings_ui_display_enable_animations_summary">打开棋子翻转的动画</string>
+    <string name="settings_ui_display_enable_animations_title">开启动画</string>
+    <string name="settings_ui_preferences">用户界面</string>
+    <string name="settings_engine_function_summary">指定电脑执哪种棋子</string>
+    <string name="settings_engine_function_title">引擎功能</string>
+    <string name="settings_engine_function_dialog_title">请选择引擎功能</string>
+    <string name="settings_sendmail_title">邮件地址</string>
+    <string name="settings_sendmail_summary">发送棋谱的默认邮件地址</string>
+    <string name="setting_strength_preference_summary">引擎的棋力: 游戏时引擎搜索的步数</string>
+    <string name="settings_strength_preference_title">搜索深度</string>
+    <string name="settings_strength_dialog_title">请选择一项</string>
+    <string name="app_name">黑白棋</string>
+    <string name="settings_engine_preferences">引擎配置</string>
+    <string name="gameover_text_white_wins">白方赢</string>
+    <string name="gameover_text_black_wins">黑方赢</string>
+    <string name="gameover_text_draw">平局</string>
+    <string name="menu_item_new_game">新游戏</string>
+    <string name="menu_item_switch_sides">互换</string>
+    <string name="menu_item_redo">恢复</string>
+    <string name="menu_item_undo">撤销</string>
+    <string name="menu_item_quit">退出</string>
+    <string name="menu_item_about">关于</string>
+    <string name="menu_item_settings">设置</string>
+    <string name="menu_item_hint">提示</string>
+    <string name="gameover_title">游戏结束</string>
+    <string name="dialog_quit_title">确定退出么?</string>
+    <string name="dialog_quit_button_quit">退出</string>
+    <string name="dialog_quit_button_cancel">取消</string>
+    <string name="dialog_busy_message">&quot;正在思考&#8230; 按任意键跳出&quot;</string>
+    <string name="dialog_pass_text">你只能跳过</string>
+    <string name="dialog_ok">确定</string>
+    <string name="dialog_donate_title">支持这个项目</string>
+    <string name="dialog_donate_doit">Paypal</string>
+    <string name="dialog_donate_cancel">不, 谢谢</string>
+    <string name="dialog_donate_share">推荐给好友</string>
+    <string name="spash_layout_message_2">(这可能需要一些时间)</string>
+    <string name="display_depth" formatted="false">Mid: %d Exact: %d W/L: %d</string>
+    <string name="settings_title">设置</string>
+    <string name="mail_date">Date:</string>
+    <string name="mail_move">棋谱:</string>
+
+</resources>
