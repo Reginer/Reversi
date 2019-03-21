@@ -11,12 +11,12 @@
     <item
         android:id="@+id/menu_take_back"
         android:icon="@drawable/ic_back"
-        android:title="@string/menu_item_undo"
+        android:title="@null"
         app:showAsAction="ifRoom|withText" />
     <item
         android:id="@+id/menu_take_redo"
         android:icon="@drawable/ic_forward"
-        android:title="@string/menu_item_redo"
+        android:title="@null"
         app:showAsAction="ifRoom|withText" />
     <item
         android:id="@+id/menu_settings"
